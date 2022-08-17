@@ -21,7 +21,6 @@ public class Main {
 
         int i = 0, j = 0, k = 0;
         for (Animal a: animals) {
-            String str = a.getClass().getSimpleName();
             if (a.getClass().getSimpleName().equals("Shark")) {
                 a.attack();
                 sharks[i] = (Shark) a;
